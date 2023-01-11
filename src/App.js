@@ -1,17 +1,16 @@
 /** @format */
 
-import "./styles.css";
-import Header from "./Header";
-import MainContent from "./MainContent";
-import Footer from "./Footer";
+import "./style.css";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <>
-      <Header />
-      <MainContent />
-      <Footer />
-    </>
+    <div className="container">
+      <Navbar />
+      <Main />
+    </div>
   );
 }
 
